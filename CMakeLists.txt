@@ -3,4 +3,5 @@ project(Meh)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(Meh main.cpp)
+add_subdirectory(SFML)
+add_subdirectory(src)
